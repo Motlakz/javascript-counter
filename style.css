@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("./image/R5JksXh\ -\ Imgur.jpg");
+    background-size: cover;
+}
+h2 {
+    color: #fff;
+}
+#counter {
+    color: blue;
+    font-size: 40px;
+    margin: 80px;
+}
+main {
+    border-radius: 20px;
+    position: relative;
+    left: 500px;
+    height: 70vh;
+    margin: 50px;
+    padding: 50px 0;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 30vw;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.buttons {
+    display: grid;
+    margin: 15px;
+    position: relative;
+    top: 150px;
+}
+button {
+    font-size: 15px;
+    padding: 12px;
+    margin: 10px;
+    background-color: rgb(65, 225, 100);
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+    color: rgb(73, 170, 162);
+    background: rgb(38, 38, 160);
+}
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url("./image/R5JksXh\ -\ Imgur.jpg");
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    main {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    margin: 30px;
+    padding: 30px;
+    width: 60%;
+    height: 50%;
+    }
+    #counter {
+    color: rgb(52, 121, 55);
+    font-size: 40px;
+    margin: 40px;
+    }
+    h2 {
+    color: rgb(52, 121, 55);
+    }
+    .buttons {
+    display: grid;
+    margin: 15px;
+    position: relative;
+    top: 30px;
+    right: 35px;
+    }
+    button {
+        position: relative;
+        left: 30px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(65, 225, 100);
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    }
+    button:hover {
+    color: rgb(73, 170, 162);
+    background: rgb(38, 38, 160);
+    }
+}
